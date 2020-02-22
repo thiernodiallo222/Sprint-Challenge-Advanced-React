@@ -30,7 +30,7 @@ export class PlayerList extends React.Component {
       <div className="App">
        
             {this.state.players.map((player, index) =>
-                <div className ="player-card">
+                <div className="player-card" >
                     <PlayerCard id={index} whatever={player} />
                 </div>
     )}

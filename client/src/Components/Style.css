@@ -1,15 +1,38 @@
-p{
-    width: 100%;
-    display: flex;
-    /* flex-direction: row; */
+
+html{
+display: flex;
+justify-content: space-evenly;
+width: 1239px;
+}
+
+.wrapper{
+  /* width: 1238px; */
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 2px solid blue; */
+
 }
 
 .player-card{
-    width:100%;
+    width: 297px;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    background: rgb(222,222,222);
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid palegreen;
+
     /* align-items: center; */
 
 }
 
     /* background: green; */
+.paragraph{
+    width: 296.3px;
+    display: flex;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding-left: 15px;
+}

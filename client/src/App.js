@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import PlayerList from './Components/PlayerList';
+import './index.css';
 // import axios from 'axios';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-    <h1>Players:</h1>
+      <div className="wrapper">
     <PlayerList />
       </div>
      
