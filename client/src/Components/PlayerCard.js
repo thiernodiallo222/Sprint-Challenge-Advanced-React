@@ -10,10 +10,10 @@ class PlayerCard extends React.Component {
     render() {
        
         return (
-            <div className ="player-card">
-                <p>Name: {this.props.element.name}</p>
-                <p>Country: {this.props.element.country}</p>
-                <p>ID: {this.props.element.id}</p>        
+            <div>
+                <p>Name: {this.props.whatever.name}</p>
+                <p>Country: {this.props.whatever.country}</p>
+                <p>ID: {this.props.whatever.id}</p>        
             </div>
         )
     }
