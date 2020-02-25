@@ -11,9 +11,10 @@ class PlayerCard extends React.Component {
        
         return (
             <div>
+                <p className="paragraph" >ID: {this.props.whatever.id}</p> 
                 <p className="paragraph" >Name: {this.props.whatever.name}</p>
                 <p className="paragraph" >Country: {this.props.whatever.country}</p>
-                <p className="paragraph" >ID: {this.props.whatever.id}</p>        
+                     
             </div>
         )
     }
