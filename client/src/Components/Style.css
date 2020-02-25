@@ -1,0 +1,63 @@
+
+html{
+display: flex;
+justify-content:center;
+width: 1239px;
+align-items: center;
+}
+
+.wrapper{
+  /* width: 1238px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid blue; */
+
+}
+
+.player-card{
+    width: 297px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid palegreen;
+
+    /* align-items: center; */
+
+}
+
+    /* background: green; */
+.paragraph{
+    width: 296.3px;
+    display: flex;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.dark-mode{
+    color: white;
+    background:rgb(99,99,99);
+}
+
+.toggle-button{
+    width: fit-content;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    color: white;
+    box-sizing: border-box;
+    /* border-radius: 45px; */
+    font-size: 1rem;
+    margin-left: 80%;
+}
+
+.title{
+    margin-left: 44%;
+    margin-right: auto;
+}
